@@ -1,0 +1,30 @@
+.navbar {
+    /* background-color: rgb(172, 168, 110); */
+    background: rgb(145, 139, 118);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar img {
+    height: 100px;
+    width: 300px;
+}
+
+.listitem {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+}
