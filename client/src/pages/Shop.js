@@ -9,7 +9,8 @@ import '../styles/Shop.css'
 
 
 function Shop() {
-  const [Products2, setProducts2] = useState([])
+  const [Products2, setProducts2] = useState([]);
+  
 
   useEffect(() => {
     const fetchAllProducts2 = async () => {
