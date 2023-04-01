@@ -1,10 +1,14 @@
 import './../../../styles/HeroText.css'
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
 
 function HeroText() {
     return (
         <div className="homebutton">
             <h1>Shop the Catnip Collection</h1>
-            <a href="shop.html"><h2>Shop Now</h2></a>
+            <button>
+            <Link to="/shop">Shop<h2>Shop Now</h2></Link>
+            </button>
         </div>
     )
 
