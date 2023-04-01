@@ -1,0 +1,32 @@
+.formcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    }
+    
+    .formform {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        padding-top: 10px;
+    }
+    
+.formitem h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+
+.formitem h5 {
+    color: #ccc;
+}
+
+.formitem p {
+    color: rgba(98, 108, 102, 0.89);
+    padding-right: 50px;
+}
+.textform {
+    border:  rgba(98, 108, 102, 0.509) 3px solid;
+}
+
+::placeholder {
+    opacity: 0.25;
+}

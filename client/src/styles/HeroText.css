@@ -1,0 +1,31 @@
+.homebutton {
+    background-color: rgb(145, 139, 118);
+}
+.homebutton h1 {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: -300px;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.homebutton a {
+    text-decoration: none;
+    /* background-color: rgb(67, 74, 66); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-radius: 40px;
+    padding: 10px;
+    position: relative;
+    top: -3500px;
+
+    
+}
+.homebutton a:hover {
+    text-decoration: none;
+    color: white;
+}
