@@ -17,9 +17,9 @@ const db = mysql.createConnection({
     database: "meowmazon_stock",
 })
 
-app.get("/", (req,res) => {
-res.json('hellofrom backend')
-})
+// app.get("/", (req,res) => {
+// res.json('hellofrom backend')
+// })
 
 app.get("/shop", (req,res) => {
     const q = "SELECT * FROM Products2"
