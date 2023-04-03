@@ -30,3 +30,13 @@
 ::placeholder {
     opacity: 0.25;
 }
+.submit {
+    margin-top: 10px;
+    background-color:rgb(205, 214, 221);
+}
+@media (max-width: 500px) {
+   
+    .formcontainer {
+        grid-template-columns: 1fr;
+        }
+    }

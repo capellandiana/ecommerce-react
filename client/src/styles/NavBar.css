@@ -1,6 +1,5 @@
 .navbar {
-    /* background-color: rgb(172, 168, 110); */
-    background: rgb(145, 139, 118);
+    background: rgb(205, 137, 135);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,12 +18,7 @@
     font-size: 1.5rem;
     padding-left: 20px;
 }
-nav a {
+.link {
     text-decoration: none;
     color: black;
-}
-
-nav a:hover {
-    color: black;
-    text-decoration: none;
 }
