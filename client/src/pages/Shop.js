@@ -10,6 +10,7 @@ import '../styles/Shop.css'
 
 function Shop() {
   const [Products2, setProducts2] = useState([]);
+  
 
   useEffect(() => {
     const fetchAllProducts2 = async () => {
@@ -31,14 +32,14 @@ function Shop() {
       <NavBar />
       <h1>testing</h1>
       <div className="shoppingcontainer">
-        {Products2.map(Products2 => (
-          <div className='item' key={Products2.id}>
-            {Products2.image && <img src={Products2.image} alt="" />}
-            <h2>{Products2.title}</h2>
-            <p>{Products2.info}</p>
-            <p>${Products2.price}</p>
-          </div>
-        ))}
+{Products2.map(Products2=>(
+  <div className='item' key={Products2.id}>
+    {Products2.image && <img src={Products2.image} alt="" />}
+    <h2>{Products2.title}</h2>
+    <p>{Products2.info}</p>
+    <p>${Products2.price}</p>
+  </div>
+))}
       </div>
 
       <Footer />
@@ -47,4 +48,3 @@ function Shop() {
 }
 
 export default Shop;
-
