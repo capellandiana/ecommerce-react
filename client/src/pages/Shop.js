@@ -30,7 +30,7 @@ function Shop() {
     <div>
       <Coupon />
       <NavBar />
-      <h1>testing</h1>
+      <h1 className='title'>Buy Meow!</h1>
       <div className="shoppingcontainer">
 {Products2.map(Products2=>(
   <div className='item' key={Products2.id}>

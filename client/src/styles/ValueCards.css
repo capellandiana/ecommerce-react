@@ -12,7 +12,7 @@
     transition: 0.5s;
     cursor: pointer;
     max-width: 300px;
-    background-color: coral;
+    background-color: rgb(205, 172, 161);
   }
   
   .card:hover {
@@ -61,4 +61,5 @@
   .container {
     padding-top: 200px;
     padding-left: 150px;
+    background-color: rgb(205, 202, 204);
   }
