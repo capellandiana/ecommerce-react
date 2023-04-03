@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 import '../styles/Shop.css'
+import SearchBar from '../components/Shop/Search';
 
 
 function Shop() {
@@ -31,6 +32,7 @@ function Shop() {
       <Coupon />
       <NavBar />
       <h1>testing</h1>
+      <SearchBar />
       <div className="shoppingcontainer">
 {Products2.map(Products2=>(
   <div className='item' key={Products2.id}>
