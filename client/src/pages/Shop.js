@@ -5,8 +5,7 @@ import Footer from '../components/Common/Footer';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
-import '../styles/Shop.css'
-import SearchBar from '../components/Shop/Search';
+import '../styles/Shop.css';
 
 
 function Shop() {
