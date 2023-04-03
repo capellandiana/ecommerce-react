@@ -3,6 +3,7 @@ import NavBar from '../components/Common/NavBar';
 import ImageSlider from '../components/Home/ImageSlider';
 import Footer from '../components/Common/Footer';
 import ValueCards from '../components/Home/ValueCards';
+import '../styles/Pages.css'
 
 
 

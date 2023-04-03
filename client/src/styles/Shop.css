@@ -5,7 +5,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .item {
-    background-color: rgb(225, 202, 150);
+    /* background-color: rgb(205, 137, 136); */
+    background-color: rgb(205, 214, 221);
     font-size: 20px;
     padding: 20px;
     text-align: center;

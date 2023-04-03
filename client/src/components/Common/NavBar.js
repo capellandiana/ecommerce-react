@@ -8,13 +8,13 @@ function NavBar() {
         <img src={logo} alt='meowmazon logo'></img>
         <ul className="navlist">
             <li className="listitem">
-            <Link to="/">Home</Link>
+            <Link className='link' to="/">Home</Link>
                 </li>
             <li className="listitem">
-            <Link to="/shop">Shop</Link>
+            <Link className='link' to="/shop">Shop</Link>
                 </li>
             <li className="listitem">
-            <Link to="/contact">Contact</Link>
+            <Link className='link' to="/contact">Contact</Link>
                 </li>
         </ul>
     </div>
