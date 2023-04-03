@@ -1,4 +1,3 @@
-// import Products from './Products';
 import NavBar from '../components/Common/NavBar';
 import Coupon from '../components/Common/Coupon';
 import Footer from '../components/Common/Footer';
@@ -32,6 +31,7 @@ function Shop() {
       <Coupon />
       <NavBar />
       <h1 className='title'>Buy Meow!</h1>
+      <SearchBar />
       <div className="shoppingcontainer">
 {Products2.map(Products2=>(
   <div className='item' key={Products2.id}>
