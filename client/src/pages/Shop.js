@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 import '../styles/Shop.css'
+import SearchBar from '../components/Shop/Search';
 
 
 function Shop() {
