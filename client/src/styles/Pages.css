@@ -1,0 +1,21 @@
+@media (max-width: 500px) {
+         .meowmazon {
+            display: none;
+        }
+        .container {
+            flex-direction: column;
+        }
+        .homebutton h1 {
+            font-size: 2rem;
+        }
+        .homebutton a {
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+        }
+        .homebutton a h2 {
+            font-size: 1rem;
+            margin-bottom: unset;
+        }
+
+  }

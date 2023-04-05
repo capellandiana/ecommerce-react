@@ -5,8 +5,7 @@ import Footer from '../components/Common/Footer';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
-import '../styles/Shop.css'
-import SearchBar from '../components/Shop/Search';
+import '../styles/Shop.css';
 
 
 function Shop() {
@@ -31,8 +30,7 @@ function Shop() {
     <div>
       <Coupon />
       <NavBar />
-      <h1>testing</h1>
-      <SearchBar />
+      <h1 className='title'>Buy Meow!</h1>
       <div className="shoppingcontainer">
 {Products2.map(Products2=>(
   <div className='item' key={Products2.id}>
