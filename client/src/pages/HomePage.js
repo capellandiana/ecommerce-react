@@ -3,6 +3,7 @@ import NavBar from '../components/Common/NavBar';
 import ImageSlider from '../components/Home/ImageSlider';
 import Footer from '../components/Common/Footer';
 import ValueCards from '../components/Home/ValueCards';
+import CatAnime from '../components/Home/CatAnime'
 
 
 
@@ -29,6 +30,7 @@ function HomePage () {
 </div>
 <ValueCards />
 <Footer />
+<CatAnime />
         </div>
     )
 }
