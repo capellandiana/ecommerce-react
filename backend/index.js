@@ -2,9 +2,6 @@ import express from 'express'
 import mysql from 'mysql2'
 import cors from "cors";
 
-// const dotenv = require('dotenv');
-// dotenv.config();
-
 
 const app = express();
 app.use(cors());
@@ -17,9 +14,6 @@ const db = mysql.createConnection({
     database: "meowmazon_stock",
 })
 
-app.get("/", (req,res) => {
-res.json('hellofrom backend')
-})
 
 app.get("/shop", (req,res) => {
     const q = "SELECT * FROM Products2"

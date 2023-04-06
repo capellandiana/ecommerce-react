@@ -1,6 +1,6 @@
 .card img {
     height: 150px;
-    width: 100%;
+    width: 300px;
   }
   
   div [class^="col-"] {
@@ -54,12 +54,22 @@
   }
   
   .row {
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   
   }
   
   .container {
     padding-top: 200px;
-    padding-left: 150px;
+    padding-bottom: 400px;
+    /* padding-left: 150px; */
     background-color: rgb(205, 202, 204);
+    margin: auto;
   }
+
+  /* @media (max-width: 500px) {
+.container {
+  
+}
+  } */
